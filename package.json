@@ -1,0 +1,25 @@
+{
+  "name": "twitter-refresh-token",
+  "version": "1.0.0",
+  "description": "A basic app to get refresh tokens from twitter authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "dotenv node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arqex/twitter-refresh-token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arqex/twitter-refresh-token/issues"
+  },
+  "homepage": "https://github.com/arqex/twitter-refresh-token#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv-cli": "^7.2.1",
+    "express": "^4.18.2"
+  }
+}
