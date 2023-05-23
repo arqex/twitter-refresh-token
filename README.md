@@ -19,9 +19,11 @@ After authenticating you will see the access and refresh tokens for managing you
 
 
 ## Configuration
-1. You need to create an application in the twitter developer console, and generate some `Oauth 2.0` credentials
+1. You need to create an application in the twitter developer console, and generate some `Oauth 2.0` credentials:
   
-![client credentials](img/clientCredentials.png). Save those credentials, you will need them later.
+![client credentials](img/clientCredentials.png)
+
+Save those credentials, you will need them later.
 
 2. Also in the user authentication settings, need to setup the Oauth redirect URL to
 
