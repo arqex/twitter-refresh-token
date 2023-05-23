@@ -20,13 +20,18 @@ After authenticating you will see the access and refresh tokens for manage your 
 
 ## Configuration
 1. You need to create an application in the twitter developer console, and generate some `Oauth 2.0` credentials
+  
 ![client credentials](img/clientCredentials.png). Save those credentials, you will need them later.
+
 2. Also in the user authentication settings, need to setup the Oauth redirect URL to
+
 ```
 http://www.localhost:3000/refresh_token
 ```
 Notice that we use `www` before `localhost` because twitter will not allow you to use `localhost` as a valid domain.
+
 ![user credentials](img/usercredentials.png)
+
 3. Once you have them. Clone this repo and install the dependencies:
 ```bash
 git clone git@github.com:arqex/twitter-refresh-token.git
