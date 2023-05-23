@@ -5,15 +5,15 @@ You just wanted to create a twitter bot and you have realized that you need to c
 So this repo is the tool you need, run it locally get the authorization and refresh token for your bot and use it in your application.
 
 ## How does it work?
-This repo contains a simple web application that display a link to authenticate your user bot.
+This repo contains a simple web application that display a link to authenticate your user bot:
 
 ![Authorize with twitter](img/authorize.png)
 
-Clicking that link will redirect you to twitter authentication page, where you can authorize use your bot account to authorize your application
+Clicking that link will redirect you to twitter authentication page, where you can authorize use your bot account to authorize your application:
 
 ![twitter authentication](img/twitter.png)
 
-After authenticating you will see the access and refresh tokens for manage your bot account using the twitter API in your server.
+After authenticating you will see the access and refresh tokens for managing your bot account using the twitter API in your server:
 
 ![authentication tokens](img/tokens.png)
 
